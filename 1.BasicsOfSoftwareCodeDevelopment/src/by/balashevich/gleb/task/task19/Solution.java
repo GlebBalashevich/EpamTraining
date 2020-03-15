@@ -11,9 +11,9 @@ public class Solution {
 
         boolean isInLine = true;
         for(int i = 0; i < points.size()-1; i++){
-            if (points.get(i).x != points.get(i+1).x){
+            if (points.get(i).getX() != points.get(i+1).getX()){
                 for(int j = 0; j < points.size()-1; j++){
-                    if (points.get(j).y != points.get(j + 1).y) {
+                    if (points.get(j).getY() != points.get(j + 1).getY()) {
                         isInLine = false;
                         break;
                     }
@@ -24,34 +24,5 @@ public class Solution {
         String message = (isInLine) ? "The points is lined up" : "The points is not lined up";
         System.out.println(message);
 
-    }
-
-    public static class Point {
-        private int x;
-        private int y;
-
-        public Point(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
-
-        public Point() {
-        }
-
-        public int getX() {
-            return x;
-        }
-
-        public void setX(int x) {
-            this.x = x;
-        }
-
-        public int getY() {
-            return y;
-        }
-
-        public void setY(int y) {
-            this.y = y;
-        }
     }
 }
