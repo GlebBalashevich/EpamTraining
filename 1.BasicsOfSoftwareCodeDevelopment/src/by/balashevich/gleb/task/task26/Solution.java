@@ -2,7 +2,7 @@ package by.balashevich.gleb.task.task26;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println("==== Task 25 ====");
+        System.out.println("==== Task 26 ====");
         System.out.println("Result: " + calculateFunction());
     }
 
