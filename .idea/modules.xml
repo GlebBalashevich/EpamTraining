@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1.BasicsOfSoftwareCodeDevelopment/1.BasicsOfSoftwareCodeDevelopment.iml" filepath="$PROJECT_DIR$/1.BasicsOfSoftwareCodeDevelopment/1.BasicsOfSoftwareCodeDevelopment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.Algorithmization/2.Algorithmization.iml" filepath="$PROJECT_DIR$/2.Algorithmization/2.Algorithmization.iml" />
       <module fileurl="file://$PROJECT_DIR$/EpamTasks.iml" filepath="$PROJECT_DIR$/EpamTasks.iml" />
     </modules>
   </component>
